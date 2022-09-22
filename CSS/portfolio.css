@@ -142,8 +142,7 @@ p {
 }
 
 .card-title {
-    font-family: "Abril Fatface", serif;
-    
+    font-family: "Abril Fatface", serif; 
 }
 
 .card-text {
@@ -164,7 +163,6 @@ p {
 #contact-text {
     font-size: 1rem;
 }
-
 
 label {
     font-family: "Abril Fatface", serif;
@@ -190,6 +188,7 @@ footer {
     font-size: 1rem;
 }
 
+
 @media (min-width: 992px) {
     .nav-link {
         font-size: 10rem;
@@ -200,19 +199,15 @@ footer {
         flex-direction: column;
         position: relative;
         overflow-x: visible;
-        white-space: auto;
-
-       
+        white-space: normal; 
     }
 
     .nav-link:hover::after { 
-        width: 0; 
-         
+        width: 0;     
     }
 
     .adam_about {
-        width: 500px;
-        
+        width: 500px;  
     }
 
     .about {
@@ -226,6 +221,4 @@ footer {
     .work {
         padding-top: 0%;
     }
-
-
 }

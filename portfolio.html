@@ -23,254 +23,251 @@
     <title>Adam Danielsson - Frontend Developer</title>
   </head>
   <body class="container-fluid">
-      <header class="row align-items-center vh-100" id="start">
-        <section
-          class="col-12 col-lg-8 col-xl-6 d-flex justify-content-around align-items-center"
-        >
-          <nav id="navbar" class="navbar">
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspySection1">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspySection2">work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspySection3">contact</a>
-              </li>
-            </ul>
-          </nav>
-      <div
-        data-bs-spy="scroll"
-        data-bs-target="#navbar-example2"
-        data-bs-offset="0"
-        class="scrollspy-example"
-        tabindex="0"
+    <header class="row align-items-center vh-100" id="start">
+      <section
+        class="col-12 col-lg-8 col-xl-6 d-flex justify-content-around align-items-center"
       >
-        </section>
-        <section
-          class="col-12 col-lg-4 col-xl-6 vh-100 d-flex justify-content-around align-items-center text-center"
-        >
-          <p>
-            Hi, my name is
-            <a href="#scrollspySection1" class="underline">Adam Danielsson</a>
-            <br />
-            I’m a Frontend Developer
-            <br />
-            based in
-            <a href="#" class="underline">Stockholm, Sweden.</a>
+        <nav id="navbar" class="navbar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspySection1">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspySection2">work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspySection3">contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          data-bs-spy="scroll"
+          data-bs-target="#navbar-example2"
+          data-bs-offset="0"
+          class="scrollspy-example"
+          tabindex="0"
+        ></div>
+      </section>
+      <section
+        class="col-12 col-lg-4 col-xl-6 vh-100 d-flex justify-content-around align-items-center text-center"
+      >
+        <p>
+          Hi, my name is
+          <a href="#scrollspySection1" class="underline">Adam Danielsson</a>
+          <br />
+          I’m a Frontend Developer
+          <br />
+          based in
+          <a href="#" class="underline">Stockholm, Sweden.</a>
+        </p>
+      </section>
+    </header>
+    <main class="row align-items-center vh-100" id="scrollspySection1">
+      <figure
+        class="col-12 col-lg-6 d-flex justify-content-around align-items-center text-center"
+      >
+        <img class="adam_about" src="assets/Adam.jpg" alt="Adam" />
+      </figure>
+      <section
+        class="col-12 col-lg-6 align-items-center justify-content-around text-center text-lg-start"
+        id="about"
+      >
+        <p class="about">
+          I'm a
+          <a href="#" class="underline_about">Frontend Developer student</a>
+          , based in Stockholm, Sweden.
+          <br />
+          At the moment I'm doing a 2 years full-time program at
+          <a
+            href="https://medieinstitutet.se/utbildningar/front-end-developer/"
+            target="_blank"
+            class="underline_about"
+          >
+            Medieinstitutet
+          </a>
+          , with courses in HTML & CSS and Javascript etc.
+        </p>
+        <p class="about">
+          Outside of school you'll find me way to upset over a football result,
+          playing guitar
+          <br />
+          or cozying up on the couch with my girlfriend and our two cats.
+        </p>
+      </section>
+    </main>
+    <aside
+      class="row work align-items-center text-center"
+      id="scrollspySection2"
+    >
+      <h1><a href="#scrollspySection2" class="underline_work">work</a></h1>
+      <h5>this is where my future projects will be found.</h5>
+      <section
+        class="col-12 col-lg-4 d-flex justify-content-around align-items-center"
+      >
+        <figure class="card">
+          <img
+            class="card-img-top"
+            src="Assets/design.webp"
+            alt="Card image cap"
+          />
+          <article class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">
+              This is where my future projects will be displayed.
+            </p>
+            <a href="#" class="btn btn-secondary">Read more</a>
+          </article>
+        </figure>
+      </section>
+      <section
+        class="col-12 col-lg-4 d-flex justify-content-around align-items-center"
+      >
+        <figure class="card">
+          <img
+            class="card-img-top"
+            src="Assets/design.webp"
+            alt="Card image cap"
+          />
+          <article class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">
+              This is where my future projects will be displayed.
+            </p>
+            <a href="#" class="btn btn-secondary">Read more</a>
+          </article>
+        </figure>
+      </section>
+      <section
+        class="col-12 col-lg-4 d-flex justify-content-around align-items-center"
+      >
+        <figure class="card">
+          <img
+            class="card-img-top"
+            src="Assets/design.webp"
+            alt="Card image cap"
+          />
+          <article class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">
+              This is where my future projects will be displayed.
+            </p>
+            <a href="#" class="btn btn-secondary">Read more</a>
+          </article>
+        </figure>
+      </section>
+    </aside>
+    <section class="row vh-100" id="scrollspySection3">
+      <section class="col-12">
+        <article class="mb-4">
+          <h1
+            class="h1-responsive font-weight-bold text-center my-4"
+            id="contact-header"
+          >
+            Hit me up!
+          </h1>
+          <p class="text-center w-responsive mx-auto mb-5" id="contact-text">
+            Have an exciting project where you need some help? Send me over a
+            message, and let's chat.
           </p>
-        </section>
-      </header>
-      <main class="row align-items-center vh-100" id="scrollspySection1">
-            <figure
-              class="col-12 col-lg-6 d-flex justify-content-around align-items-center text-center"
-            >
-              <img class="adam_about" src="assets/Adam.jpg" alt="Adam" />
-            </figure>
-            <section
-              class="col-12 col-lg-6 align-items-center justify-content-around text-center text-lg-start"
-              id="about"
-            >
-              <p class="about">
-                I'm a
-                <a href="#" class="underline_about">Frontend Developer student</a>
-                , based in Stockholm, Sweden.
-                <br />
-                At the moment I'm doing a 2 years full-time program at
-                <a
-                  href="https://medieinstitutet.se/utbildningar/front-end-developer/"
-                  target="_blank"
-                  class="underline_about"
-                >
-                  Medieinstitutet
-                </a>
-                , with courses in HTML & CSS and Javascript etc.
-              </p>
-              <p class="about">
-                Outside of school you'll find me way to upset over a football
-                result, playing guitar
-                <br />
-                or cozying up on the couch with my girlfriend and our two cats.
-              </p>
-            </section>
-          </main>
-          <aside class="row work align-items-center text-center" id="scrollspySection2">
-            <h1><a href="#scrollspySection2" class="underline_work">work</a></h1>
-            <h5>this is where my future projects will be found.</h5>
-            <section
-              class="col-12 col-lg-4 d-flex justify-content-around align-items-center"
-            >
-              <article class="card">
-                <img
-                  class="card-img-top"
-                  src="Assets/design.webp"
-                  alt="Card image cap"
-                />
-                <article class="card-body">
-                  <h5 class="card-title">Project 1</h5>
-                  <p class="card-text">
-                    This is where my future projects will be displayed.
-                  </p>
-                  <a href="#" class="btn btn-secondary">Read more</a>
-                </article>
-              </article>
-            </section>
-            <section
-              class="col-12 col-lg-4 d-flex justify-content-around align-items-center"
-            >
-              <article class="card">
-                <img
-                  class="card-img-top"
-                  src="Assets/design.webp"
-                  alt="Card image cap"
-                />
-                <article class="card-body">
-                  <h5 class="card-title">Project 2</h5>
-                  <p class="card-text">
-                    This is where my future projects will be displayed.
-                  </p>
-                  <a href="#" class="btn btn-secondary">Read more</a>
-                </article>
-              </article>
-            </section>
-            <section
-              class="col-12 col-lg-4 d-flex justify-content-around align-items-center"
-            >
-              <article class="card">
-                <img
-                  class="card-img-top"
-                  src="Assets/design.webp"
-                  alt="Card image cap"
-                />
-                <article class="card-body">
-                  <h5 class="card-title">Project 3</h5>
-                  <p class="card-text">
-                    This is where my future projects will be displayed.
-                  </p>
-                  <a href="#" class="btn btn-secondary">Read more</a>
-                </article>
-              </article>
-            </section>
-          </section>
-        </aside>
-        <section class="row vh-100" id="scrollspySection3">
-          <section class="col-12">
-            <article class="mb-4">
-              <h1
-                class="h1-responsive font-weight-bold text-center my-4"
-                id="contact-header"
+          <section class="row justify-content-around">
+            <article class="col-md-9 mb-md-0 mb-5">
+              <form
+                id="contact-form"
+                name="contact-form"
+                action="mail.php"
+                method="POST"
               >
-                Hit me up!</h1>
-              <p
-                class="text-center w-responsive mx-auto mb-5"
-                id="contact-text"
-              > Have an exciting project where you need some help? Send me over
-                a message, and let's chat.</p>
-                <section class="row justify-content-around">
-                  <article class="col-md-9 mb-md-0 mb-5">
-                    <form
-                      id="contact-form"
-                      name="contact-form"
-                      action="mail.php"
-                      method="POST"
-                    >
-                      <section class="row">
-                        <article class="col-md-6">
-                          <article class="md-form mb-0">
-                            <input
-                              type="text"
-                              id="name"
-                              name="name"
-                              class="form-control"
-                            />
-                            <label for="name" class="">Your name</label>
-                          </article>
-                        </article>
-
-                        <section class="col-md-6">
-                          <article class="md-form mb-0">
-                            <input
-                              type="text"
-                              id="email"
-                              name="email"
-                              class="form-control"
-                            />
-                            <label for="email" class="">Your email</label>
-                          </article>
-                        </section>
-                      </section>
-
-                      <section class="row">
-                        <section class="col-md-12">
-                          <article class="md-form mb-0">
-                            <input
-                              type="text"
-                              id="subject"
-                              name="subject"
-                              class="form-control"
-                            />
-                            <label for="subject" class="">Subject</label>
-                          </article>
-                        </section>
-                      </section>
-
-                      <section class="row">
-                        <section class="col-md-12">
-                          <article class="md-form">
-                            <textarea
-                              type="text"
-                              id="message"
-                              name="message"
-                              rows="2"
-                              class="form-control md-textarea"
-                            ></textarea>
-                            <label for="message">Your message</label>
-                          </article>
-                        </section>
-                      </section>
-                    </form>
-
-                    <section class="text-center text-md-left">
-                      <a
-                        class="btn btn-dark"
-                        onclick="document.getElementById('contact-form').submit();"
-                      >
-                        Send
-                      </a>
-                    </section>
-                    <article class="status"></article>
+                <section class="row">
+                  <article class="col-md-6">
+                    <article class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="form-control"
+                      />
+                      <label for="name" class="">Your name</label>
+                    </article>
                   </article>
+
+                  <section class="col-md-6">
+                    <article class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        class="form-control"
+                      />
+                      <label for="email" class="">Your email</label>
+                    </article>
+                  </section>
                 </section>
-              </article>
-            </section>
+
+                <section class="row">
+                  <section class="col-md-12">
+                    <article class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        class="form-control"
+                      />
+                      <label for="subject" class="">Subject</label>
+                    </article>
+                  </section>
+                </section>
+
+                <section class="row">
+                  <section class="col-md-12">
+                    <article class="md-form">
+                      <textarea
+                        type="text"
+                        id="message"
+                        name="message"
+                        rows="2"
+                        class="form-control md-textarea"
+                      ></textarea>
+                      <label for="message">Your message</label>
+                    </article>
+                  </section>
+                </section>
+              </form>
+
+              <section class="text-center text-md-left">
+                <a
+                  class="btn btn-dark"
+                  onclick="document.getElementById('contact-form').submit();"
+                >
+                  Send
+                </a>
+              </section>
+              <article class="status"></article>
+            </article>
           </section>
-        </section>
-      </div>
-    </div>
+        </article>
+      </section>
+    </section>
     <footer class="row align-items-center">
-        <article class="col-12 col-lg-6 text-center text-lg-start gx-5">
-          <a
-            href="https://www.linkedin.com/in/adam-danielsson-589265193/"
-            class="bi bi-linkedin"
-            target="_blank"
-          ></a>
-          <a
-            href="https://github.com/adamovd"
-            class="bi bi-github"
-            target="_blank"
-          ></a>
-          <a
-            href="https://twitter.com/daadam"
-            class="bi bi-twitter"
-            target="_blank"
-          ></a>
-        </article>
-        <article class="col-12 col-lg-6 text-center text-lg-end">
-          <p class="copy">&copy;Adam Danielsson 2022</p>
-        </article>
-      </footer>
-    
+      <article class="col-12 col-lg-6 text-center text-lg-start gx-5">
+        <a
+          href="https://www.linkedin.com/in/adam-danielsson-589265193/"
+          class="bi bi-linkedin"
+          target="_blank"
+        ></a>
+        <a
+          href="https://github.com/adamovd"
+          class="bi bi-github"
+          target="_blank"
+        ></a>
+        <a
+          href="https://twitter.com/daadam"
+          class="bi bi-twitter"
+          target="_blank"
+        ></a>
+      </article>
+      <article class="col-12 col-lg-6 text-center text-lg-end">
+        <p class="copy">&copy;Adam Danielsson 2022</p>
+      </article>
     </footer>
   </body>
 </html>
