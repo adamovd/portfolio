@@ -5,9 +5,15 @@
     background-color: rgb(176, 167, 167);
 }
 
+.logo {
+    margin-top: 10px;
+    width: 70px;
+    z-index: 3;
+}
 
 #navbar {
     position: fixed;
+    justify-content: end;
     left: 0;
     right: 0;
     top: 0;
@@ -94,7 +100,7 @@ p {
     font-size: 1rem;
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: 5%;
+    
 }
 
 #scrollspySection2 {
@@ -161,8 +167,9 @@ p {
 }
 
 #contact-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
+
 
 label {
     font-family: "Abril Fatface", serif;
@@ -190,6 +197,7 @@ footer {
 
 
 @media (min-width: 992px) {
+    
     .nav-link {
         font-size: 11rem;
     }
@@ -198,8 +206,9 @@ footer {
         display: flex;
         flex-direction: column;
         position: relative;
-        overflow-x: visible;
-        white-space: normal; 
+        height: 100vh;
+        justify-content: center;
+        padding: 0;
     }
 
     .nav-link:hover::after { 
