@@ -5,12 +5,6 @@
     background-color: rgb(176, 167, 167);
 }
 
-.logo {
-    margin-top: 10px;
-    width: 70px;
-    z-index: 3;
-}
-
 #navbar {
     position: fixed;
     justify-content: end;
@@ -142,9 +136,9 @@ p {
 }
 
 .card:hover {
-    -moz-transform: scale(1.05);
-	-webkit-transform: scale(1.05);
-    transform: scale(1.05)
+    -moz-transform: scale(1.02);
+	-webkit-transform: scale(1.02);
+    transform: scale(1.02)
 }
 
 .card-title {
