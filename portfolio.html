@@ -24,7 +24,7 @@
   </head>
   <body class="container-fluid">
     <header class="row align-items-center vh-100" id="start">
-      <section
+      <aside
         class="col-12 col-lg-8 col-xl-6 d-flex justify-content-around align-items-center"
       >
         <nav id="navbar" class="navbar">
@@ -40,18 +40,18 @@
             </li>
           </ul>
         </nav>
-        <section
+        <div
           data-bs-spy="scroll"
           data-bs-target="#navbar-example2"
           data-bs-offset="0"
           class="scrollspy-example"
           tabindex="0"
-        ></section>
-      </section>
+        ></div>
+      </aside>
       <section
         class="col-12 col-lg-4 col-xl-6 vh-100 d-flex justify-content-around align-items-center text-center"
       >
-        <p>
+        <h3>
           Hi, my name is
           <a href="#scrollspySection1" class="underline">Adam Danielsson</a>
           <br />
@@ -59,7 +59,7 @@
           <br />
           based in
           <a href="#" class="underline">Stockholm, Sweden.</a>
-        </p>
+        </h3>
       </section>
     </header>
     <main class="row align-items-center vh-100" id="scrollspySection1">
@@ -68,7 +68,7 @@
       >
         <img class="adam_about" src="assets/Adam.jpg" alt="Adam" />
       </figure>
-      <section
+      <aside
         class="col-12 col-lg-6 align-items-center text-lg-start"
         id="about"
       >
@@ -87,13 +87,13 @@
           </a>
           , with courses in HTML & CSS and Javascript etc.
         </p>
-        <!-- <p class="about">
+        <p class="about">
           Outside of school you'll find me way to upset over a football result,
           playing guitar
           <br />
           or cozying up on the couch with my girlfriend and our two cats.
-        </p> -->
-      </section>
+        </p>
+      </aside>
     </main>
     <section
       class="row work align-items-center text-center"
@@ -222,7 +222,6 @@
                   <section class="col-md-12">
                     <article class="md-form">
                       <textarea
-                        type="text"
                         id="message"
                         name="message"
                         rows="2"

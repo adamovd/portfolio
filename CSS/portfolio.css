@@ -48,7 +48,7 @@
     left: 0; 
   }
 
-p {
+h3, p {
     font-family: "Abril Fatface", serif;
     font-size: 2rem;
 }
